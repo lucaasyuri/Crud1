@@ -1,0 +1,30 @@
+
+
+> criar pasta do projeto
+
+> instalar o laravel (composer create-project laravel/laravel crud-laravel)
+
+> criar banco de dados crud_laravel
+
+> alterar dados .env
+
+> iniciar o servidor do laravel (php artisan serve)
+
+> criar migration (php artisan make:migration criar_tabela_de_candidatos)
+
+> criar comandos para a migration criar a tabela no banco de dados
+
+> mandando o laravel criar a tabela no banco de dados (php artisan migrate)
+
+> limpar view 'welcome' e adicionar a view personalizada do formulário
+
+> criar rota
+	adicionar o use Illuminate\Http\Request;
+
+> criando model (php artisan make:model Candidato)
+	- por padrão o nome da model é semrpe com a primeira letra maiúscula e no singular***
+	- adicionar a model em web.php 'use App\Models\Candidato;'
+
+> criando todas as rotas CRUD
+
+> na view editar, colocar o 'value' nos inputs para trazer os dados do banco de dados
